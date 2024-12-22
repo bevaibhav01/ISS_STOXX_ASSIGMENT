@@ -24,10 +24,10 @@ public class Main {
             logger.info("Connected to the database!");
 
             // Perform CRUD operations
-            createStudent(connection, "David Lee", 23, "david@example.com", "Engineering", "2023-09-01");
+            createStudent(connection, "Vaibhav Mahale", 21, "vaibhav@example.com", "Engineering", "2023-09-01");
             readStudents(connection);
             updateStudentMajor(connection, 1, "Data Science"); // Update major for student with ID 1
-            deleteStudent(connection, 3); // Delete student with ID 3
+            deleteStudent(connection, 1); // Delete student with ID 3
             readStudents(connection);
 
         } catch (Exception e) {
